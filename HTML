@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Сливен Юнайтед | Официален сайт</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(to right, orange, royalblue);
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #222;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      margin: 5px 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background-image: url('stadium.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 2em;
+      text-shadow: 2px 2px 4px #000;
+    }
+    .content {
+      padding: 20px;
+    }
+    .section {
+      margin-bottom: 40px;
+    }
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 10px;
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    .newsletter {
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      max-width: 400px;
+      margin: auto;
+      text-align: center;
+    }
+    .newsletter input[type="email"] {
+      padding: 10px;
+      width: 70%;
+      margin-right: 5px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    .newsletter button {
+      padding: 10px 15px;
+      background-color: orange;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .players {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .player-card {
+      background: white;
+      border-radius: 8px;
+      padding: 15px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+      width: 200px;
+      text-align: center;
+    }
+    .player-card img {
+      width: 100%;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Сливен Юнайтед</h1>
+    <p>Един град, един отбор</p>
+  </header>
+
+  <nav>
+    <a href="#">Начало</a>
+    <a href="#">Новини</a>
+    <a href="#">Отбор</a>
+    <a href="#">Мачове</a>
+    <a href="#">Билети</a>
+    <a href="#">Фен Магазин</a>
+    <a href="#">Галерия</a>
+    <a href="#">Контакт</a>
+  </nav>
+
+  <div class="hero">
+    Добре дошли на Арена Сливен
+  </div>
+
+  <div class="content">
+    <div class="section">
+      <h2>Последни новини</h2>
+      <p>Очаквайте съвсем скоро официалното представяне на логото, екипите и стадиона!</p>
+    </div>
+
+    <div class="section">
+      <h2>Следващ мач</h2>
+      <p><strong>Сливен Юнайтед</strong> vs. [Съперник] – Събота, 17:00 ч., Арена Сливен</p>
+    </div>
+
+    <div class="section">
+      <h2>История на клуба</h2>
+      <p>Сливен Юнайтед е основан през 2025 г. с амбицията да върне футболната слава на града. Отборът обединява таланти от региона и горди фенове под мотото „Един град, един отбор“.</p>
+    </div>
+
+    <div class="section">
+      <h2>Отборът</h2>
+      <div class="players">
+        <div class="player-card">
+          <img src="player1.jpg" alt="Играч 1">
+          <h3>Иван Петров</h3>
+          <p>Нападател</p>
+        </div>
+        <div class="player-card">
+          <img src="player2.jpg" alt="Играч 2">
+          <h3>Георги Иванов</h3>
+          <p>Халф</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Фен Магазин</h2>
+      <p>Шалове, фланелки, шапки и още! Очаквайте онлайн магазина съвсем скоро.</p>
+    </div>
+
+    <div class="section">
+      <h2>Кафе и Парк зона</h2>
+      <p>Насладете се на кафе с гледка към Арена Сливен или разходка в парка до стадиона.</p>
+    </div>
+
+    <div class="section">
+      <h2>Галерия</h2>
+      <div class="gallery">
+        <img src="gallery1.jpg" alt="Фенове на мач">
+        <img src="gallery2.jpg" alt="Арена Сливен">
+        <img src="gallery3.jpg" alt="Оранжево-сини знамена">
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Абонирай се за бюлетин</h2>
+      <div class="newsletter">
+        <p>Въведи имейл, за да получаваш новини и специални оферти:</p>
+        <input type="email" placeholder="Имейл адрес">
+        <button>Абонирай се</button>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Контакти</h2>
+      <p>Имейл: info@slivenunited.bg<br>Телефон: +359 888 123 456</p>
+    </div>
+
+    <div class="section">
+      <h2>Програма с мачове</h2>
+      <ul>
+        <li>13 април – Сливен Юнайтед vs. Ботев (Пловдив)</li>
+        <li>20 април – Левски vs. Сливен Юнайтед</li>
+        <li>27 април – Сливен Юнайтед vs. ЦСКА 1948</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Треньорски щаб</h2>
+      <p><strong>Старши треньор:</strong> Николай Стоянов</p>
+      <p><strong>Помощник-треньор:</strong> Димитър Михайлов</p>
+      <p><strong>Треньор на вратарите:</strong> Ивайло Колев</p>
+    </div>
+
+    <div class="section">
+      <h2>Талисман – Лъвчо</h2>
+      <p>Лъвчо е символ на силата и духа на Сливен Юнайтед! Винаги е до отбора и радва малки и големи на мачовете!</p>
+      <img src="mascot.jpg" alt="Талисман Лъвчо" style="width:200px; border-radius:8px;">
+    </div>
+
+    <div class="section">
+      <h2>Как да стигнеш до Арена Сливен</h2>
+      <p>Адрес: бул. Панайот Хитов 92, Сливен</p>
+      <p>Градски транспорт: автобусни линии №2, №4 и №10</p>
+      <p>На разположение са паркинги за коли и фен автобуси.</p>
+    </div>
+
+    <div class="section">
+      <h2>Цветовете и емблемата</h2>
+      <p>Оранжевото символизира огъня и страстта на феновете, синьото – честта и силата на отбора. Лъвът в емблемата олицетворява величието на Сливен и борбения дух на „Сливен Юнайтед“.</p>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Сливен Юнайтед. Всички права запазени.
+  </footer>
+</body>
+</html>
